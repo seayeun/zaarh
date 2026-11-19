@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources website="WEYNE" semester="4">
+  <resource id="01" name="SoCDS Lab Record Format" type="lab" link="" />
+  <resource id="02" name="Classroom Learning SOET" type="learning-record" note="No Mid 2 pages" link="" />
+  <resource id="03" name="All Branch Classroom Learning Record" type="learning-record" note="Includes Mid 2 pages" link="" />
+  <resource id="04" name="Practice/LAB SOET" type="practical" link="" />
+  <resource id="05" name="Project Report" type="project" link="" />
+  <resource id="06" name="Project Report – Last Pages" type="project" link="" />
+  <resource id="07" name="Project Report" type="project" link="" />
+</resources>

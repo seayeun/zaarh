@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&family=Space+Mono:wght@400;700&display=swap');
+:root{--bg:#101112;--line:#35383a;--white:#f2f3f4}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--white);font-family:Inter,Arial,sans-serif;min-height:100vh}.topbar{height:47px;border-bottom:1px solid #303335;display:flex;align-items:center;background:#0d0f10;position:sticky;top:0;z-index:5}.brand{height:100%;min-width:168px;padding:0 20px;display:flex;align-items:center;border-right:1px solid #303335;color:#f3f3f3;text-decoration:none;font-size:20px;font-weight:800;letter-spacing:1.4px;font-style:italic}.topnav{height:100%;display:flex;align-items:center;flex:1}.topnav a,.topnav span{height:100%;display:flex;align-items:center;padding:0 15px;text-decoration:none;color:#8b9092;font:700 10px 'Space Mono',monospace;letter-spacing:1.3px}.topnav a:hover{color:white;background:#1b1e20}.topnav .nav-active{color:#111;background:#f1f2f2;height:22px;margin-left:15px;padding:0 10px}.top-actions{height:100%;padding:0 19px;border-left:1px solid #303335;display:flex;align-items:center;gap:9px;color:#85898c;font:10px 'Space Mono',monospace;letter-spacing:1px}.status-dot{width:7px;height:7px;border-radius:50%;background:#20d7a0;box-shadow:0 0 9px #20d7a0}.shell{max-width:1600px;margin:auto;padding:28px 19px 36px}.intro{display:flex;align-items:center;justify-content:space-between;padding:12px 2px 24px}.eyebrow,.mini-label{font:10px 'JetBrains Mono',monospace;letter-spacing:1.6px;color:#85898c}.greeting-title{font-family:'Barlow Condensed',Impact,sans-serif;font-size:clamp(39px,5.2vw,62px);font-weight:800;letter-spacing:1.2px;line-height:1;text-transform:uppercase;margin:12px 0 9px}.greeting-title span{color:#56b9e8}.greeting-dot{color:#f2f3f4!important}.subheading{margin:0;color:#969a9c;font-size:11px;letter-spacing:.35px;text-transform:uppercase}.local-clock{display:flex;align-items:center;gap:11px;margin-top:13px;color:#899195;font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:1.3px}.local-clock strong{color:#c9d0d3;font-size:11px;font-weight:500;letter-spacing:1px}.local-clock #localDate{color:#626a6e}.semester-stamp{border:1px solid #3b3e40;padding:9px 15px;display:flex;align-items:center;gap:10px}.semester-stamp strong{font-size:25px;color:#55b9e9}.semester-stamp span{font:9px/1.5 'JetBrains Mono',monospace;color:#a2a6a8;letter-spacing:1px}.toolbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:15px;gap:15px}.tabs{display:flex;border:1px solid #343739;min-height:34px}.tab{padding:10px 13px;color:#85898c;font:9px 'JetBrains Mono',monospace;letter-spacing:1.2px;border-right:1px solid #343739}.tab b{margin-left:5px;color:#bfc2c3}.tab.selected{background:#f1f2f2;color:#101112;font-weight:bold}.search-wrap{height:34px;border:1px solid #343739;display:flex;align-items:center;padding:0 10px;min-width:210px;color:#888}.search-wrap input{background:transparent;border:0;outline:0;color:white;width:100%;padding:7px;font:11px 'JetBrains Mono',monospace}.resource-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid #3b3e40;border-left:1px solid #3b3e40}.resource-card{--accent:#4e9eff;min-height:235px;padding:0 18px 17px;border-right:1px solid #3b3e40;border-bottom:1px solid #3b3e40;position:relative;display:flex;flex-direction:column;background:#111314;filter:saturate(.25);opacity:.58;transition:filter .22s,opacity .22s,background .22s,box-shadow .22s}.resource-card:hover{filter:saturate(1);opacity:1;background:color-mix(in srgb,var(--accent) 8%,#111314);box-shadow:inset 0 2px 0 var(--accent),0 0 18px color-mix(in srgb,var(--accent) 18%,transparent);z-index:1}.c-blue{--accent:#347cff}.c-orange{--accent:#f06b4e}.c-purple{--accent:#9a62f3}.c-yellow{--accent:#ffb21c}.c-teal{--accent:#08b99a}.c-pink{--accent:#ed3c9b}.c-green{--accent:#8acb32}.card-top{height:39px;margin:0 -18px 17px;padding:0 18px;border-bottom:1px solid #343739;display:flex;align-items:center;justify-content:space-between}.number{background:var(--accent);color:#101112;font:700 10px 'JetBrains Mono',monospace;padding:4px 8px}.card-type{font:9px 'JetBrains Mono',monospace;color:#999da0;letter-spacing:1px}.card-main{display:flex;gap:13px;align-items:center;min-height:58px}.app-icon{width:53px;height:53px;flex:none;border-radius:12px;background:var(--accent);display:grid;place-items:center;font-family:Inter,sans-serif;font-size:30px;line-height:1;filter:saturate(1.15)}.card-main h2{font-size:18px;line-height:1.2;margin:0 0 5px;letter-spacing:-.5px}.card-main p{font-size:11px;color:#a2a5a7;line-height:1.45;margin:0}.availability{align-self:flex-start;border:1px solid #44484a;padding:3px 6px;margin-top:18px;color:#777c7e;font:8px 'JetBrains Mono',monospace;letter-spacing:.8px}.card-bottom{display:flex;gap:8px;margin-top:auto;padding-top:17px}.download-btn{height:34px;flex:1;border:1px solid #373b3d;background:transparent;color:#626769;font:700 9px 'JetBrains Mono',monospace;letter-spacing:1px}.download-btn:disabled{cursor:not-allowed}.more{width:35px;height:34px;border:1px solid #373b3d;display:grid;place-items:center;color:#818688}.resource-card:hover .download-btn{border-color:var(--accent);color:var(--accent)}.semester-links{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px}.semester-card{min-height:100px;border:1px solid #3a3d3f;padding:15px 18px;display:flex;flex-direction:column;gap:7px;text-decoration:none;color:#eee;filter:saturate(.35);opacity:.65;transition:.2s}.semester-card strong{font-size:23px;letter-spacing:.5px}.semester-card>span:last-child{font:9px 'JetBrains Mono',monospace;color:#929799;letter-spacing:1px}.semester-card:hover{opacity:1;filter:saturate(1);box-shadow:inset 3px 0 var(--accent),0 0 18px color-mix(in srgb,var(--accent) 20%,transparent);background:color-mix(in srgb,var(--accent) 8%,#111314)}.lab-link{--accent:#32a4f4}.lr-link{--accent:#d64aab}footer{min-height:45px;border-top:1px solid #303335;padding:0 20px;display:flex;align-items:center;justify-content:space-between;color:#777d80;font:9px 'JetBrains Mono',monospace;letter-spacing:1.2px}footer strong{color:#c5c8ca}footer i{color:#85898c;font-style:normal}.coming-shell{min-height:calc(100vh - 92px);max-width:1100px;margin:auto;padding:12vh 7vw}.coming-code{font:700 clamp(70px,15vw,160px)/1 'Barlow Condensed',sans-serif;color:#1f2427;letter-spacing:-5px;margin:45px 0 0}.coming-shell h1{font:800 clamp(48px,8vw,86px) 'Barlow Condensed',sans-serif;letter-spacing:1px;margin-top:-10px}.coming-shell h1 span{color:#56b9e8}.coming-shell>p:not(.eyebrow){color:#999fa2;font-size:14px;margin:10px 0 35px}.back-link{display:inline-block;border:1px solid #4b5052;padding:12px 15px;color:#c9cdcf;text-decoration:none;font:10px 'JetBrains Mono',monospace;letter-spacing:1px;transition:.2s}.back-link:hover{border-color:#56b9e8;color:#56b9e8;box-shadow:0 0 14px #56b9e833}@media(max-width:1050px){.resource-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:620px){.brand{min-width:auto;padding:0 12px;font-size:17px}.topnav a,.topnav span{padding:0 7px;font-size:8px}.top-actions{display:none}.shell{padding:20px 12px}.intro{align-items:flex-start}.semester-stamp{padding:6px}.greeting-title{font-size:clamp(34px,9vw,48px);letter-spacing:.5px}.local-clock{flex-wrap:wrap;gap:7px}.toolbar{align-items:stretch;flex-direction:column}.tabs{overflow:auto}.tab{white-space:nowrap}.search-wrap{width:100%}.resource-grid{grid-template-columns:1fr}.resource-card{min-height:220px}.semester-links{grid-template-columns:1fr}footer{padding:12px;gap:8px;align-items:flex-start;flex-direction:column}}
+
+.tab-button{appearance:none;background:transparent;border-top:0;border-bottom:0;border-left:0;cursor:pointer;font:inherit;color:#85898c}.tab-button:hover,.tab-button.active{background:#f1f2f2;color:#101112}
+.category-panel{margin-top:20px}.category-panel[hidden]{display:none}.category-heading{margin:6px 0 15px}.category-heading h2{font-size:25px;margin:7px 0 0}.category-heading h2 span{color:#56b9e8}
+.tools-layout{display:grid;grid-template-columns:minmax(0,3fr) minmax(210px,1fr);gap:12px}.tools-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.prompt-card{border:1px solid #3b3e40;padding:19px;display:flex;flex-direction:column;opacity:.68;transition:.22s}.prompt-card:hover{opacity:1;background:#211a29;box-shadow:inset 0 2px #b27cff,0 0 18px #b27cff22}.prompt-emoji{font-size:36px;margin-top:25px}.prompt-card h3{font:800 32px/1 'Barlow Condensed',Impact,sans-serif;margin:12px 0}.prompt-card p{font-size:11px;line-height:1.6;color:#999fa2}.coming-label{margin-top:auto;border:1px solid #5a4a6c;padding:6px 8px;color:#c39bff;font:9px 'Space Mono',monospace}
+@media(max-width:1050px){.tools-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:700px){.tools-layout{grid-template-columns:1fr}.tools-grid{grid-template-columns:1fr}.prompt-card{min-height:220px}.tab-button{white-space:nowrap}}
+
+/* Navigation tabs are links but retain the original resource-tab typography. */
+.tab-link{display:inline-flex;align-items:center;text-decoration:none;color:#85898c;font:9px 'Space Mono',monospace;letter-spacing:1.2px;padding:10px 13px;border-right:1px solid #343739;white-space:nowrap}
+.tab-link:hover,.tab-link.selected{background:#f1f2f2;color:#101112}
+.top-actions{display:none!important}
+.semester-stamp{display:none!important}
+.toolbar .back-link{margin-left:12px;white-space:nowrap}
+@media(max-width:700px){.toolbar{align-items:stretch}.toolbar .back-link{align-self:flex-start}}
+
+
+/* BIOTECHNOLOGY PAGE ONLY — brighter cards and left-to-right glow */
+.biotech-page{background:#101214}
+.biotech-page .resource-card{filter:saturate(.82);opacity:.88;overflow:hidden;isolation:isolate}
+.biotech-page .resource-card::before{
+  content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
+  background:linear-gradient(100deg,var(--bio-glow),transparent 72%);
+  opacity:.045;transition:opacity .35s ease,transform .55s ease;transform:translateX(-105%);
+}
+.biotech-page .resource-card:hover{
+  opacity:1;filter:saturate(1.25) brightness(1.12);
+  background:color-mix(in srgb,var(--bio-glow) 13%,#111416);
+  box-shadow:inset 0 2px 0 var(--bio-glow),0 0 24px color-mix(in srgb,var(--bio-glow) 34%,transparent);
+}
+.biotech-page .resource-card:hover::before{opacity:.28;transform:translateX(0)}
+.biotech-page .resource-card .number{background:var(--bio-glow);color:#090b0d}
+.biotech-page .resource-card .app-icon{background:color-mix(in srgb,var(--bio-glow) 88%,white);box-shadow:0 0 18px color-mix(in srgb,var(--bio-glow) 28%,transparent)}
+.biotech-page .bio-group{margin:28px 0 36px}
+.biotech-page .bio-group-heading{display:flex;align-items:center;gap:14px;margin-bottom:14px;padding-bottom:12px;border-bottom:1px solid #3b4145}
+.biotech-page .bio-index{font:700 15px 'Space Mono',monospace;color:#101214;background:#76d7ff;padding:9px 10px}
+.biotech-page .bio-group-heading .eyebrow{margin:0 0 4px;color:#9aa7af}
+.biotech-page .bio-group-heading h2{font-size:23px;letter-spacing:.2px;margin:0;color:#f0f3f5}
+.biotech-page .bio-group-heading h2 span{color:#9baab3;font-size:.72em}
+.biotech-page .bio-grid{grid-template-columns:repeat(3,minmax(0,1fr));border-color:#3b4145}
+.biotech-page .bio-card{min-height:235px;border-color:#3b4145;--bio-glow:#5bc8ff}
+.biotech-page .bio-cyan{--bio-glow:#43d7ff}
+.biotech-page .bio-violet{--bio-glow:#a78bfa}
+.biotech-page .bio-lime{--bio-glow:#b7ed55}
+.biotech-page .bio-orange{--bio-glow:#ff9d4d}
+.biotech-page .bio-pink{--bio-glow:#ff6db5}
+.biotech-page .bio-blue{--bio-glow:#5b9dff}
+.biotech-page .bio-card .card-main h3{font-size:17px;line-height:1.25;margin:0 0 5px}
+.biotech-page .bio-card .card-main p{font-size:11px;line-height:1.5;color:#b4bdc2;margin:0}
+.biotech-page .bio-downloads{display:flex;flex-direction:column;gap:7px;margin-top:auto;padding-top:18px}
+.biotech-page .bio-downloads .download-btn{flex:initial;width:100%;height:auto;min-height:34px;padding:8px 10px;text-align:left;color:#9ba5ab;border-color:#485157;font-size:8px}
+.biotech-page .bio-card:hover .bio-downloads .download-btn{border-color:var(--bio-glow);color:#eaf8ff}
+.biotech-page .bio-group-heading .bio-index{background:linear-gradient(135deg,#5bc8ff,#a78bfa,#ff6db5)}
+.biotech-page .greeting-title{color:#f2f4f5}
+.biotech-page .greeting-title .greeting-dot{color:#5bc8ff!important}
+@media(max-width:1050px){.biotech-page .bio-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.biotech-page .bio-grid{grid-template-columns:1fr}.biotech-page .bio-group-heading h2{font-size:19px}}
+
+
+/* Biotechnology download links and notes */
+.biotech-page .download-link{
+  display:flex;align-items:center;justify-content:flex-start;
+  text-decoration:none;cursor:pointer;min-height:36px;height:auto;
+  padding:9px 11px;text-align:left;line-height:1.4;
+  border:1px solid #56636b;color:#c3d0d7;background:#111619;
+  font:700 8px 'Space Mono',monospace;letter-spacing:.65px;
+  transition:color .2s,border-color .2s,background .2s,box-shadow .2s;
+}
+.biotech-page .download-link:hover{
+  color:#071015;border-color:var(--bio-glow);
+  background:var(--bio-glow);
+  box-shadow:0 0 15px color-mix(in srgb,var(--bio-glow) 55%,transparent);
+}
+.biotech-page .bio-note{
+  margin:12px 0 0;color:#aebbc2;font:9px/1.55 'Space Mono',monospace;
+  letter-spacing:.1px;
+}
+.biotech-page .bio-downloads{gap:8px}
+.biotech-page .bio-card{padding-bottom:17px}
